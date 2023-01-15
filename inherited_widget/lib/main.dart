@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return StateInhWidget(//حطينا ال inherted على راس التطبيق كله عشان نوصله من اى مكان
-      counter: 16,
+    return StateWidget(//حطينا ال inherted على راس التطبيق كله عشان نوصله من اى مكان
+    
       child:  MaterialApp(
         title: 'Flutter Demo',
        
