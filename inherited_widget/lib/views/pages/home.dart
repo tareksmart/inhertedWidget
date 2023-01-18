@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              statWidget!.counter.toString(),
+              statWidget!.state.counter.toString(),
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             const SizedBox(
